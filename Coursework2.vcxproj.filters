@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Third Party</Filter>
+    </ClCompile>
+    <ClCompile Include="Project.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Maze.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Third Party</Filter>
+    </ClInclude>
+    <ClInclude Include="Maze.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="media\CurrentCellShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="media\CurrentCellShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="media\SurfaceShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="media\SurfaceShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assimp-vc142-mt.dll">
+      <Filter>Third Party</Filter>
+    </None>
+    <None Include="media\models\floor.mtl">
+      <Filter>Media</Filter>
+    </None>
+    <None Include="media\models\wall.mtl">
+      <Filter>Media</Filter>
+    </None>
+    <None Include="media\models\floor.obj">
+      <Filter>Media</Filter>
+    </None>
+    <None Include="media\models\wall.obj">
+      <Filter>Media</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b911d073-e956-47e5-ad87-1bc123178d48}</UniqueIdentifier>
+      <Extensions>.frag; .vert</Extensions>
+    </Filter>
+    <Filter Include="Third Party">
+      <UniqueIdentifier>{2c979957-37be-4e5d-957e-6151da58d4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{77563230-5e21-45ef-bafe-664fcdc485c0}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+    <Filter Include="Implementation">
+      <UniqueIdentifier>{a9cd57c6-41bd-44f8-952f-c3e102256f09}</UniqueIdentifier>
+      <Extensions>.cpp</Extensions>
+    </Filter>
+    <Filter Include="Media">
+      <UniqueIdentifier>{84a6e71e-de9d-4ab1-8d8e-9fdaadd9322e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="media\models\floortexture.png">
+      <Filter>Media</Filter>
+    </Image>
+    <Image Include="media\models\walltexture.png">
+      <Filter>Media</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
