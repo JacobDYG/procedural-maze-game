@@ -1,6 +1,8 @@
 # Procedural Maze Game
 A prototype for a maze game. On each run, a new maze is procedurally generated from a size given by the user. The user can watch the maze as it is being generated, and fly around freely. A start and end location are randomly selected and shown in the maze; when the user starts the game they can walk around the maze and search for the end location to win.
 
+https://user-images.githubusercontent.com/32328378/117594532-2d391c80-b136-11eb-92f0-26827b7504be.mp4
+
 ### Dependencies
 * GLAD
 * GLFW3
